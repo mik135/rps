@@ -1,6 +1,6 @@
 let playerScore = 0;
 let computerScore = 0;
-let winner = ""
+let winner = "";
 
 
 
@@ -51,13 +51,17 @@ function playRound(playerSelection, computerSelection = getComputerChoice()) {
         console.log("%cYou Win! Paper beats Scissors", "color: white; background-color: green; font-size: 15px; padding: 10px; border-radius: 10px");
         winner = "player";
         playerScore++;
-    } 
+    } else {
+        console.log("%cIt is a draw!", "color: purple; background-color: white; font-size: 15px; padding: 10px; border-radius: 10px");
+    }
 
     return winner;
 }
 
 function game() {
-    
+    playerScore = 0;
+    computerScore = 0;
+    winner = "";
 
     for(let i = 0; i < 5; i++) {
         console.log(`Round ${i + 1}: FIGHT!!`);
