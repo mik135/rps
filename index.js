@@ -84,42 +84,6 @@ function game() {
 }
 
 
-// let score = parseInt(prompt("What is your score?"));
-// if(score >= 0) {
-//     grade(score);
-//     let recheck = confirm("Check Again?");
-
-//     if(recheck) {
-//         score = parseInt(prompt("What is your score?"));
-//         grade(score);
-//     } else {
-//         console.log("Bye For Now");
-//     }
-// }
-
-
-// function grade(score) {
-//     let grade = "";
-
-//     if(score <= 39) {
-//         grade = "F";
-//     } else if (score <= 44 && score >= 40) {
-//         grade = "E";
-//     } else if (score <= 49 && score >= 45) {
-//         grade = "D";
-//     } else if (score <= 59 && score >= 50) {
-//         grade = "C";
-//     } else if (score <= 69 && score >= 60) {
-//         grade = "B";
-//     } else if (score >= 70 && score <= 100) {
-//         grade = "A";
-//     } else {
-//         grade = "Invalid Score";
-//     }
-
-//     return console.log(`%cYour grade is ${grade}`, "color: green; background-color: white; padding: 20px; font-size: 16px; border: 3px solid green; border-radius: 10px");
-// }
-
 
 
 
